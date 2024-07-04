@@ -11,7 +11,7 @@ public class SearchInsertPosition {
         System.out.println(res);
     }
 
-    private static int doSearchInsert(int[] nums, int target) {
+    public static int doSearchInsert(int[] nums, int target) {
 
         int upperBound = nums.length - 1;
         int lowerBound = 0;
